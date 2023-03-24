@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*  navigation */
+.navigation{
+    display: flex;
+    background-color: #f84b2e;
+    padding: 20px;
+    align-items: center;
+   
+
+}
+.navigation h1{
+    color: #fff;
+    margin-right: 190px;
+    margin-left: 50px;
+}
+
+.navigation .box input{
+    width: 350px;
+    border: none;
+    border-radius: 3px;
+    height: 25px;
+}
+
+.navigation .box .search{
+    width: 25px;
+    height: 25px;
+    color: #f84b2e;
+    border: none;
+    border-radius: 3px;
+}
+
+.navigation .box .shoppingcart{
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #f84b2e;
+    margin: 0 50px;
+}
+
+.navigation .box .login{
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #f84b2e;
+    font-size: 15px;
+    margin: 0 50px;
+}
+.navigation .box .regist{
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #f84b2e;
+    font-size: 15px;
+    margin: 0 50px;
+}
+
+.navigation .btn{
+    display: none;
+}
+
+.centerline{
+    background-color:  #f84b2e;
+    width: 100%;
+    height: 3px;
+
+
+}
+
+/* Content */
+
+.content{
+    background-color: #f5f5f5;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    padding: 20px 0 20px 150px;
+
+}
+
+/* o so 1 */
+.content .listproduct{
+    background-color: #fff;
+    margin: 20px;
+    
+}
+
+.content .listproduct .menu{
+    margin: 20px;
+}
+
+.content .list{
+    margin: 20px;
+}
+
+/* o so 2 */
+
+.content .iphone .likebuy{
+    display: flex;
+    gap: 100px;
+}
+
+.content .iphone .addrees{
+    display: flex;
+    gap: 100px;
+}
+
+/* o so 3 */
+
+.content .book .likebuy{
+    display: flex;
+    gap: 80px;
+}
+
+.content .book .addrees{
+    display: flex;
+    gap: 145px;
+}
+
+/* o so 4 */
+
+.content .ramen .likebuy{
+    display: flex;
+    gap: 80px;
+}
+
+.content .ramen .addrees{
+    display: flex;
+    gap: 145px;
+}
+
+/* o so 5 */
+
+.content .beer .likebuy{
+    display: flex;
+    gap: 80px;
+}
+
+.content .beer .addrees{
+    display: flex;
+    gap: 145px;
+}
+
+/* o so 6 */
+.content .sunlt .likebuy{
+    display: flex;
+    gap: 80px;
+}
+
+.content .sunlt .addrees{
+    display: flex;
+    gap: 115px;
+}
+
+
+
+/* footer */
+.footer{
+    display: flex;
+    background-color: #f5f5f5;
+    padding: 30px 0;
+    text-align: center;
+    justify-content: space-evenly;
+    
+}
+
+.footerline{
+    background-color: black;
+    width: 100%;
+    height: 3px;
+}
+
+@media screen and (max-width:420px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /*  navigation */
+.navigation{
+    display: flex;
+    background-color: #f84b2e;
+    
+    align-items: center;
+   
+
+}
+
+.navigation .box{
+    display: none;
+}
+.navigation h1{
+    color: #fff;
+    width: 20px;
+
+
+
+    
+}
+
+.navigation .box input{
+    width: 350px;
+    border: none;
+    border-radius: 3px;
+    height: 25px;
+}
+
+.navigation .box .search{
+    width: 25px;
+    height: 25px;
+    color: #f84b2e;
+    border: none;
+    border-radius: 3px;
+}
+
+.navigation .box .shoppingcart{
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #f84b2e;
+    margin: 0 50px;
+}
+
+.navigation .box .login{
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #f84b2e;
+    font-size: 15px;
+    margin: 0 50px;
+}
+.navigation .box .regist{
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #f84b2e;
+    font-size: 15px;
+    margin: 0 50px;
+}
+
+.centerline{
+    background-color:  #f84b2e;
+    width: 100%;
+    height: 3px;
+
+
+}
+
+/* Content */
+
+.content{
+    background-color: #f5f5f5;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    padding: 20px 0 20px 150px;
+    flex-direction: column;
+
+}
+
+/* o so 1 */
+.content .listproduct{
+    background-color: #fff;
+    margin: 20px;
+    
+}
+
+
+
+.content .listproduct .menu{
+    margin: 20px;
+}
+
+.content .list{
+    margin: 20px;
+}
+
+/* o so 2 */
+
+.content .iphone .likebuy{
+    display: flex;
+    gap: 100px;
+}
+
+.content .iphone .addrees{
+    display: flex;
+    gap: 100px;
+}
+
+/* o so 3 */
+
+.content .book .likebuy{
+    display: flex;
+    gap: 80px;
+}
+
+.content .book .addrees{
+    display: flex;
+    gap: 145px;
+}
+
+/* o so 4 */
+
+.content .ramen .likebuy{
+    display: flex;
+    gap: 80px;
+}
+
+.content .ramen .addrees{
+    display: flex;
+    gap: 145px;
+}
+
+/* o so 5 */
+
+.content .beer .likebuy{
+    display: flex;
+    gap: 80px;
+}
+
+.content .beer .addrees{
+    display: flex;
+    gap: 145px;
+}
+
+/* o so 6 */
+.content .sunlt .likebuy{
+    display: flex;
+    gap: 80px;
+}
+
+.content .sunlt .addrees{
+    display: flex;
+    gap: 115px;
+}
+
+
+
+/* footer */
+.footer{
+    display: flex;
+    background-color: #f5f5f5;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+    
+    
+}
+
+
+.footerline{
+    background-color: black;
+    width: 100%;
+    height: 3px;
+}
+   
+
+
+
+    /* .header button{
+        background-color: #1cbc9c;
+        padding: 15px;
+        border: none;
+        border-radius: 3px;
+    }
+    .header{
+        position: relative;
+    }
+    .header .list-item{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        top: 44px;
+        right: 50px;
+        display: none;
+        
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    } */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
